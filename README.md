@@ -1,3 +1,4 @@
 # sample
 |original|translated|
-|![original](./misc/original.jpeg')|![translated](./misc/translated.png')|
+|---|---|
+|![original](./misc/original.jpeg)|![translated](./misc/translated.png)|
