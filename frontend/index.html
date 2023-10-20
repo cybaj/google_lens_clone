@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Lens Clone</title>
+    <link rel="stylesheet" href="static/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Google Lens Clone</h1>
+
+      <form id="upload-form">
+        <label for="language">Translate to:</label>
+        <select id="language">
+          <option value="en">English</option>
+          <option value="fr">French</option>
+          <!-- Add more languages as needed -->
+        </select>
+
+        <input type="file" id="image-upload" />
+        <button type="submit">Translate</button>
+      </form>
+
+      <div id="result-section">
+        <h2>Original Image</h2>
+        <img id="original-image" alt="Original Image" width="300" />
+        <br />
+        <h2>Translated Image</h2>
+        <img id="result-image" alt="Translated Image" width="300" />
+      </div>
+    </div>
+
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
